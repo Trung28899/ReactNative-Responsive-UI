@@ -50,6 +50,12 @@
         - See code and comment in useEffect()
         - See how buttonWidth is used
 
+    *, 7th Commit: Rendering Different layout on different dimensions
+
+        - Use if statement with Dimensions API to check for
+            Dimensions
+        - See GameScreen.js for this
+
 ## 3. Summary:
 
 ## 4. Useful Resources and Links:
