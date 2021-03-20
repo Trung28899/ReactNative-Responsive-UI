@@ -34,13 +34,21 @@
         - ./screens/GameOverScreen.js: look for imageContainer
             styling to see how to work Dimensions
 
-    *, 5th Commit: KeyboardAvoidingView API
+    *, 5th Commit: KeyboardAvoidingView API, Start working
+        with Landscape screen
 
         - ./screens/StartGameScreen.js
         - Look for KeyboardAvoidingView
         - Suppose to push the screen to when input open keyboard
             But currently not affected
         > Need look into more if need to use
+
+    *, 6th Commit: Listen to orientation change, create an event
+        listener when the user rotate the device
+
+        - ./screens/StartGameScreen.js
+        - See code and comment in useEffect()
+        - See how buttonWidth is used
 
 ## 3. Summary:
 
