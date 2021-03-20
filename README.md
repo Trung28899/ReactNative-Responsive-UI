@@ -7,6 +7,11 @@
         $ expo install expo-app-loading
         $ npm install --save expo-font
 
+    - In app.json:
+        +, "orientation": "portrait"
+        +, "orientation": "landscape"
+        +, "orientation": "default"
+
 ## 2. Module Notes:
 
     *, 3r Commit: Adaptive Styling Rules and Dimensions API
@@ -28,6 +33,14 @@
              in pixels
         - ./screens/GameOverScreen.js: look for imageContainer
             styling to see how to work Dimensions
+
+    *, 5th Commit: KeyboardAvoidingView API
+
+        - ./screens/StartGameScreen.js
+        - Look for KeyboardAvoidingView
+        - Suppose to push the screen to when input open keyboard
+            But currently not affected
+        > Need look into more if need to use
 
 ## 3. Summary:
 
