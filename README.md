@@ -21,6 +21,13 @@
             +, ./screens/GameScreen.js
             +, Search for 'Dimensions' and see how it is used
 
+    *, 4th Commit: More example about Dimensions API
+
+        - Should style properties based on Dimensions
+        - The numerice values of the style properties are
+             in pixels
+        - ./screens/GameOverScreen.js: look for imageContainer
+            styling to see how to work Dimensions
 
 ## 3. Summary:
 
