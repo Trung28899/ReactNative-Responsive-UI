@@ -15,6 +15,13 @@
 
 ## 2. Module Notes:
 
+    *, 9th Commit: Styling based on platform
+    (IOS or Android)
+        - Platform API is used to detect the platform
+            user running on
+        - See ./components/Header.js to see how this
+            API is used
+
     *, 8th Commit: Introducing ScreenOrientation API
                 (Only available in Expo)
         - Can lock a specific screen in 1 orientation
