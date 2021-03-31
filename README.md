@@ -15,6 +15,14 @@
 
 ## 2. Module Notes:
 
+    *, 11st Commit: Platform Specific Code Files
+        - See the following files:
+            +, ./components/MainButton.android.js
+            +, ./components/MainButton.ios.js
+            +, Import as MainButton in StartGameScreen.js
+        - React Native will automatically choose the correct file
+            for correct platform, no need to check platform
+
     *, 10th Commit: Working with Platform.select() and Platform
         in "if" Checks
         - Slick way to use Platform without using if check
