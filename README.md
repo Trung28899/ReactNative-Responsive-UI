@@ -15,6 +15,13 @@
 
 ## 2. Module Notes:
 
+    *, 10th Commit: Working with Platform.select() and Platform
+        in "if" Checks
+        - Slick way to use Platform without using if check
+            statement
+        - ./components/Header.js
+        - ./components/MainButton.js
+
     *, 9th Commit: Styling based on platform
     (IOS or Android)
         - Platform API is used to detect the platform
