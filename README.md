@@ -13,7 +13,21 @@
         +, "orientation": "landscape"
         +, "orientation": "default"
 
+    - In this module we gonna learn:
+        +, how to detect screen size
+        +, How to detect potrait and landscape mode
+        +, How to detect Platform (Android or IOS)
+        +, Technique for adaptability
+
 ## 2. Module Notes:
+
+    *, 12nd Commit: SafeAreaView
+        - SafeAreaView make sure your view (inside its scope) is always visible and nothing overlapse its content (such as
+        home bar in IOS)
+
+        - See ./App.js for code
+
+        - See video 105 to understand more
 
     *, 11st Commit: Platform Specific Code Files
         - See the following files:
